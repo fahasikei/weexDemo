@@ -1,0 +1,127 @@
+{
+  "ohos-module-WebScenekitHsp": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "D:\\myProjects\\weexDemo\\weexDemo\\webScenekitHsp\\build",
+    "DEPENDENCY_INFO": {},
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "D:\\myProjects\\weexDemo\\weexDemo\\webScenekitHsp\\src\\main",
+        "RESOURCES_PATH": [
+          "D:\\myProjects\\weexDemo\\weexDemo\\webScenekitHsp\\src\\main\\resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "D:\\myProjects\\weexDemo\\weexDemo\\webScenekitHsp\\build\\default\\outputs\\default",
+          "INTERMEDIA_PATH": "D:\\myProjects\\weexDemo\\weexDemo\\webScenekitHsp\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "D:\\myProjects\\weexDemo\\weexDemo\\webScenekitHsp\\build\\default\\intermediates\\loader_out\\default",
+          "JS_LITE_ASSETS_PATH": "D:\\myProjects\\weexDemo\\weexDemo\\webScenekitHsp\\build\\default\\intermediates\\loader_out_lite\\default",
+          "RES_PATH": "D:\\myProjects\\weexDemo\\weexDemo\\webScenekitHsp\\build\\default\\intermediates\\res\\default",
+          "RES_PROFILE_PATH": "D:\\myProjects\\weexDemo\\weexDemo\\webScenekitHsp\\build\\default\\intermediates\\res\\default\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "D:\\myProjects\\weexDemo\\weexDemo\\webScenekitHsp\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "D:\\myProjects\\weexDemo\\weexDemo\\webScenekitHsp\\build\\default\\cache\\default\\default@CompileJS\\jsbundle",
+          "WORKER_LOADER": "D:\\myProjects\\weexDemo\\weexDemo\\webScenekitHsp\\build\\default\\intermediates\\loader\\default\\loader.json",
+          "MANIFEST_JSON": "D:\\myProjects\\weexDemo\\weexDemo\\webScenekitHsp\\build\\default\\intermediates\\manifest\\default",
+          "OUTPUT_METADATA_JSON": "D:\\myProjects\\weexDemo\\weexDemo\\webScenekitHsp\\build\\default\\intermediates\\hsp_metadata\\default\\output_metadata.json"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default",
+        "name": "debug"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {},
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": true,
+                "files": [
+                  "./obfuscation-rules.txt"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        }
+      ]
+    }
+  },
+  "ohos-project": {
+    "SELECT_PRODUCT_NAME": "default",
+    "MODULE_BUILD_DIR": "D:\\myProjects\\weexDemo\\weexDemo\\build",
+    "BUNDLE_NAME": "com.advanced.temp",
+    "BUILD_PATH": {
+      "OUTPUT_PATH": "D:\\myProjects\\weexDemo\\weexDemo\\build\\outputs\\default"
+    },
+    "MODULES": [
+      {
+        "name": "WebScenekitHsp",
+        "srcPath": "D:\\myProjects\\weexDemo\\weexDemo\\webScenekitHsp",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ],
+        "belongProjectPath": "D:\\myProjects\\weexDemo\\weexDemo"
+      }
+    ],
+    "PROFILE_OPT": {
+      "app": {
+        "products": [
+          {
+            "name": "default",
+            "signingConfig": "default",
+            "compatibleSdkVersion": "5.0.0(12)",
+            "runtimeOS": "HarmonyOS"
+          }
+        ],
+        "signingConfigs": []
+      },
+      "modules": [
+        {
+          "name": "WebScenekitHsp",
+          "srcPath": "./webScenekitHsp",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "CONFIG_PROPERTIES": {
+      "enableSignTask": true,
+      "skipNativeIncremental": false,
+      "hvigor.keepDependency": true
+    },
+    "OVERALL_PROJECT_PATHS": [
+      "D:\\myProjects\\weexDemo\\weexDemo"
+    ]
+  },
+  "version": 1
+}
