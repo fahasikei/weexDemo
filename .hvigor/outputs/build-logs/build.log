@@ -244,3 +244,330 @@
 [2025-06-20T16:19:12.786] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
 [2025-06-20T16:19:12.787] [DEBUG] debug-file - worker[0] exits with exit code 0.
 [2025-06-20T16:19:12.787] [DEBUG] debug-file - worker[1] exits with exit code 0.
+[2025-06-20T16:39:29.753] [DEBUG] debug-file - session manager: set active socket. socketId=lCwY9AR5_WoYU1lPAAAD
+[2025-06-20T16:39:29.769] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-06-20T16:39:29.782] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2025-06-20T16:39:29.783] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2025-06-20T16:39:29.793] [DEBUG] debug-file - hvigorfile, resolving D:\myProjects\weexDemo\weexDemo\hvigorfile.ts
+[2025-06-20T16:39:29.799] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2025-06-20T16:39:29.799] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2025-06-20T16:39:29.804] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2025-06-20T16:39:29.805] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2025-06-20T16:39:29.805] [DEBUG] debug-file - Product 'default' build option: {}
+[2025-06-20T16:39:29.805] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2025-06-20T16:39:29.806] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true
+} in this build.
+[2025-06-20T16:39:29.808] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2025-06-20T16:39:29.815] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2025-06-20T16:39:29.839] [DEBUG] debug-file - Sdk init in 31 ms 
+[2025-06-20T16:39:29.856] [DEBUG] debug-file - Project task initialization takes 16 ms 
+[2025-06-20T16:39:29.856] [DEBUG] debug-file - hvigorfile, resolve finished D:\myProjects\weexDemo\weexDemo\hvigorfile.ts
+[2025-06-20T16:39:29.861] [DEBUG] debug-file - hvigorfile, resolving D:\myProjects\weexDemo\weexDemo\webScenekitHsp\hvigorfile.ts
+[2025-06-20T16:39:29.876] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-06-20T16:39:29.876] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-06-20T16:39:29.880] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=WebScenekitHsp, buildMode=debug
+[2025-06-20T16:39:29.880] [DEBUG] debug-file - Target 'default' config: {}
+[2025-06-20T16:39:29.881] [DEBUG] debug-file - Module 'WebScenekitHsp' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+}
+[2025-06-20T16:39:29.881] [DEBUG] debug-file - End initialize module-target build option map, moduleName=WebScenekitHsp
+[2025-06-20T16:39:29.881] [DEBUG] debug-file - Module 'WebScenekitHsp' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+} in this build.
+[2025-06-20T16:39:29.883] [DEBUG] debug-file - Module WebScenekitHsp task initialization takes 1 ms 
+[2025-06-20T16:39:29.884] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-06-20T16:39:29.884] [DEBUG] debug-file - hvigorfile, no custom plugins were found in D:\myProjects\weexDemo\weexDemo\webScenekitHsp\hvigorfile.ts
+[2025-06-20T16:39:29.884] [DEBUG] debug-file - hvigorfile, resolve finished D:\myProjects\weexDemo\weexDemo\webScenekitHsp\hvigorfile.ts
+[2025-06-20T16:39:29.959] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 74 ms 
+[2025-06-20T16:39:29.960] [DEBUG] debug-file - project has submodules:WebScenekitHsp
+[2025-06-20T16:39:29.960] [DEBUG] debug-file - module:WebScenekitHsp no need to execute packageHap
+[2025-06-20T16:39:29.961] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2025-06-20T16:39:29.965] [DEBUG] debug-file - load to the disk finished
+[2025-06-20T16:39:29.968] [DEBUG] debug-file - Module weexDemo Collected Dependency: 
+[2025-06-20T16:39:29.968] [DEBUG] debug-file - Module weexDemo's total dependency: 0
+[2025-06-20T16:39:29.969] [DEBUG] debug-file - Module WebScenekitHsp Collected Dependency: 
+[2025-06-20T16:39:29.969] [DEBUG] debug-file - Module WebScenekitHsp's total dependency: 0
+[2025-06-20T16:39:29.972] [DEBUG] debug-file - Configuration phase cost:185 ms 
+[2025-06-20T16:39:29.974] [DEBUG] debug-file - Configuration task cost before running: 203 ms 
+[2025-06-20T16:39:29.975] [DEBUG] debug-file - Executing task :WebScenekitHsp:init
+[2025-06-20T16:39:29.975] [DEBUG] debug-file - WebScenekitHsp : init cost memory 0.01822662353515625
+[2025-06-20T16:39:29.975] [DEBUG] debug-file - runTaskFromQueue task cost before running: 204 ms 
+[2025-06-20T16:39:29.975] [INFO] debug-file - Finished :WebScenekitHsp:init... after 1 ms 
+[2025-06-20T16:39:29.975] [DEBUG] debug-file - Executing task ::init
+[2025-06-20T16:39:29.975] [DEBUG] debug-file - weexDemo : init cost memory 0.01190185546875
+[2025-06-20T16:39:29.975] [DEBUG] debug-file - runTaskFromQueue task cost before running: 204 ms 
+[2025-06-20T16:39:29.975] [INFO] debug-file - Finished ::init... after 1 ms 
+[2025-06-20T16:39:29.989] [DEBUG] debug-file - Module 'WebScenekitHsp' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+} in this build.
+[2025-06-20T16:39:29.991] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2025-06-20T16:39:29.992] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-06-20T16:39:29.999] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-06-20T16:39:29.999] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-06-20T16:39:30.069] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-06-20T16:39:30.070] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-06-20T16:40:10.187] [DEBUG] debug-file - session manager: set active socket. socketId=ay2NQQDdRs3IkqIrAAAF
+[2025-06-20T16:40:10.217] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-06-20T16:40:10.238] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2025-06-20T16:40:10.239] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2025-06-20T16:40:10.253] [DEBUG] debug-file - hvigorfile, resolving D:\myProjects\weexDemo\weexDemo\hvigorfile.ts
+[2025-06-20T16:40:10.260] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2025-06-20T16:40:10.260] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2025-06-20T16:40:10.266] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2025-06-20T16:40:10.266] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2025-06-20T16:40:10.267] [DEBUG] debug-file - Product 'default' build option: {}
+[2025-06-20T16:40:10.267] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2025-06-20T16:40:10.269] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true
+} in this build.
+[2025-06-20T16:40:10.284] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2025-06-20T16:40:10.291] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2025-06-20T16:40:10.316] [DEBUG] debug-file - Sdk init in 32 ms 
+[2025-06-20T16:40:10.332] [DEBUG] debug-file - Project task initialization takes 15 ms 
+[2025-06-20T16:40:10.332] [DEBUG] debug-file - hvigorfile, resolve finished D:\myProjects\weexDemo\weexDemo\hvigorfile.ts
+[2025-06-20T16:40:10.338] [DEBUG] debug-file - hvigorfile, resolving D:\myProjects\weexDemo\weexDemo\webScenekitHsp\hvigorfile.ts
+[2025-06-20T16:40:10.342] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-06-20T16:40:10.342] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-06-20T16:40:10.346] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=WebScenekitHsp, buildMode=debug
+[2025-06-20T16:40:10.346] [DEBUG] debug-file - Target 'default' config: {}
+[2025-06-20T16:40:10.347] [DEBUG] debug-file - Module 'WebScenekitHsp' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+}
+[2025-06-20T16:40:10.347] [DEBUG] debug-file - End initialize module-target build option map, moduleName=WebScenekitHsp
+[2025-06-20T16:40:10.347] [DEBUG] debug-file - Module 'WebScenekitHsp' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+} in this build.
+[2025-06-20T16:40:10.350] [DEBUG] debug-file - Module WebScenekitHsp task initialization takes 1 ms 
+[2025-06-20T16:40:10.351] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-06-20T16:40:10.351] [DEBUG] debug-file - hvigorfile, no custom plugins were found in D:\myProjects\weexDemo\weexDemo\webScenekitHsp\hvigorfile.ts
+[2025-06-20T16:40:10.351] [DEBUG] debug-file - hvigorfile, resolve finished D:\myProjects\weexDemo\weexDemo\webScenekitHsp\hvigorfile.ts
+[2025-06-20T16:40:10.356] [DEBUG] debug-file - hvigorfile, resolving D:\myProjects\weexDemo\weexDemo\entry\hvigorfile.ts
+[2025-06-20T16:40:10.361] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-06-20T16:40:10.361] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-06-20T16:40:10.366] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-06-20T16:40:10.366] [DEBUG] debug-file - Target 'default' config: {}
+[2025-06-20T16:40:10.366] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-06-20T16:40:10.366] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+}
+[2025-06-20T16:40:10.366] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true
+}
+[2025-06-20T16:40:10.366] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-06-20T16:40:10.366] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+} in this build.
+[2025-06-20T16:40:10.369] [DEBUG] debug-file - Module entry task initialization takes 1 ms 
+[2025-06-20T16:40:10.369] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-06-20T16:40:10.369] [DEBUG] debug-file - hvigorfile, no custom plugins were found in D:\myProjects\weexDemo\weexDemo\entry\hvigorfile.ts
+[2025-06-20T16:40:10.369] [DEBUG] debug-file - hvigorfile, resolve finished D:\myProjects\weexDemo\weexDemo\entry\hvigorfile.ts
+[2025-06-20T16:40:10.435] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 65 ms 
+[2025-06-20T16:40:10.436] [DEBUG] debug-file - project has submodules:WebScenekitHsp,entry
+[2025-06-20T16:40:10.436] [DEBUG] debug-file - module:WebScenekitHsp no need to execute packageHap
+[2025-06-20T16:40:10.437] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2025-06-20T16:40:10.442] [DEBUG] debug-file - load to the disk finished
+[2025-06-20T16:40:10.445] [DEBUG] debug-file - Module weexDemo Collected Dependency: 
+[2025-06-20T16:40:10.445] [DEBUG] debug-file - Module weexDemo's total dependency: 0
+[2025-06-20T16:40:10.446] [DEBUG] debug-file - Module WebScenekitHsp Collected Dependency: 
+[2025-06-20T16:40:10.446] [DEBUG] debug-file - Module WebScenekitHsp's total dependency: 0
+[2025-06-20T16:40:10.466] [DEBUG] debug-file - Module entry Collected Dependency: D:\myProjects\weexDemo\weexDemo\oh_modules\.ohpm\advancedApi@k0w8fqmuk3iqixwrrr4bzv8ox4wdllcxstze3msxqv4=\oh_modules\advancedApi,D:\myProjects\weexDemo\weexDemo\oh_modules\.ohpm\webSceneAPI@so9+nnnqac1n3jbjnejibr1pq38gckruahrnz2rq6y0=\oh_modules\webSceneAPI,D:\myProjects\weexDemo\weexDemo\oh_modules\.ohpm\@ohos+lottie@2.0.10-rc.4\oh_modules\@ohos\lottie,D:\myProjects\weexDemo\weexDemo\webScenekitHsp
+[2025-06-20T16:40:10.466] [DEBUG] debug-file - Module entry's total dependency: 4
+[2025-06-20T16:40:10.470] [DEBUG] debug-file - Configuration phase cost:225 ms 
+[2025-06-20T16:40:10.473] [DEBUG] debug-file - Configuration task cost before running: 253 ms 
+[2025-06-20T16:40:10.473] [DEBUG] debug-file - Executing task :WebScenekitHsp:init
+[2025-06-20T16:40:10.473] [DEBUG] debug-file - WebScenekitHsp : init cost memory 0.0167388916015625
+[2025-06-20T16:40:10.473] [DEBUG] debug-file - runTaskFromQueue task cost before running: 254 ms 
+[2025-06-20T16:40:10.474] [INFO] debug-file - Finished :WebScenekitHsp:init... after 1 ms 
+[2025-06-20T16:40:10.474] [DEBUG] debug-file - Executing task :entry:init
+[2025-06-20T16:40:10.474] [DEBUG] debug-file - entry : init cost memory 0.01190185546875
+[2025-06-20T16:40:10.474] [DEBUG] debug-file - runTaskFromQueue task cost before running: 254 ms 
+[2025-06-20T16:40:10.474] [INFO] debug-file - Finished :entry:init... after 1 ms 
+[2025-06-20T16:40:10.475] [DEBUG] debug-file - Executing task ::init
+[2025-06-20T16:40:10.475] [DEBUG] debug-file - weexDemo : init cost memory 0.0119171142578125
+[2025-06-20T16:40:10.475] [DEBUG] debug-file - runTaskFromQueue task cost before running: 255 ms 
+[2025-06-20T16:40:10.475] [INFO] debug-file - Finished ::init... after 1 ms 
+[2025-06-20T16:40:10.487] [DEBUG] debug-file - Module 'WebScenekitHsp' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+} in this build.
+[2025-06-20T16:40:10.491] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+} in this build.
+[2025-06-20T16:40:10.495] [DEBUG] debug-file - Module 'entry' target 'ohosTest' using build option: {
+  "debuggable": true
+} in this build.
+[2025-06-20T16:40:10.497] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2025-06-20T16:40:10.497] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-06-20T16:40:10.544] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-06-20T16:40:10.544] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-06-20T16:40:10.635] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-06-20T16:40:10.635] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-07-22T16:01:09.646] [DEBUG] debug-file - java daemon tryConnect failed Error: connect ECONNREFUSED 127.0.0.1:45050
+[2025-07-22T16:01:09.675] [DEBUG] debug-file - java daemon started at port 45050 pid 9116
+[2025-07-22T16:01:06.603] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2025-07-22T16:01:06.901] [DEBUG] debug-file - env: daemon=true
+[2025-07-22T16:01:13.648] [DEBUG] debug-file - hvigor start cli arguments:{
+  prop: [ 'product=default' ],
+  parallel: true,
+  incremental: true,
+  daemon: true,
+  _: [ 'clean', '--analyze=normal' ]
+}
+[2025-07-22T16:01:06.605] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  modelVersion: '5.0.0',
+  dependencies: { 'fs-extra': '10.0.1', execa: '5.1.1' },
+  execution: {},
+  logging: {},
+  debugging: {},
+  nodeOptions: {}
+}
+[2025-07-22T16:01:13.727] [DEBUG] debug-file - session manager: set active socket. socketId=MP9KUqcSahQS4dQbAAAB
+[2025-07-22T16:01:13.741] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-07-22T16:01:13.775] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2025-07-22T16:01:13.782] [DEBUG] debug-file - Cache service initialization finished in 7 ms 
+[2025-07-22T16:01:13.794] [DEBUG] debug-file - hvigorfile, resolving D:\myProjects\weexDemo\weexDemo\hvigorfile.ts
+[2025-07-22T16:01:45.125] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2025-07-22T16:01:45.125] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2025-07-22T16:01:45.369] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2025-07-22T16:01:45.369] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2025-07-22T16:01:45.370] [DEBUG] debug-file - Product 'default' build option: {}
+[2025-07-22T16:01:45.370] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2025-07-22T16:01:45.374] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true
+} in this build.
+[2025-07-22T16:01:45.410] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2025-07-22T16:01:45.419] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2025-07-22T16:01:45.423] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2025-07-22T16:01:45.429] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2025-07-22T16:01:45.468] [DEBUG] debug-file - Sdk init in 52 ms 
+[2025-07-22T16:01:45.486] [DEBUG] debug-file - Project task initialization takes 17 ms 
+[2025-07-22T16:01:45.486] [DEBUG] debug-file - hvigorfile, resolve finished D:\myProjects\weexDemo\weexDemo\hvigorfile.ts
+[2025-07-22T16:01:45.493] [DEBUG] debug-file - hvigorfile, resolving D:\myProjects\weexDemo\weexDemo\webScenekitHsp\hvigorfile.ts
+[2025-07-22T16:01:45.536] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-07-22T16:01:45.536] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-07-22T16:01:45.546] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=WebScenekitHsp, buildMode=debug
+[2025-07-22T16:01:45.546] [DEBUG] debug-file - Target 'default' config: {}
+[2025-07-22T16:01:45.547] [DEBUG] debug-file - Module 'WebScenekitHsp' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+}
+[2025-07-22T16:01:45.547] [DEBUG] debug-file - End initialize module-target build option map, moduleName=WebScenekitHsp
+[2025-07-22T16:01:45.547] [DEBUG] debug-file - Module 'WebScenekitHsp' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+} in this build.
+[2025-07-22T16:01:45.554] [DEBUG] debug-file - Module WebScenekitHsp task initialization takes 5 ms 
+[2025-07-22T16:01:45.555] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-07-22T16:01:45.555] [DEBUG] debug-file - hvigorfile, no custom plugins were found in D:\myProjects\weexDemo\weexDemo\webScenekitHsp\hvigorfile.ts
+[2025-07-22T16:01:45.555] [DEBUG] debug-file - hvigorfile, resolve finished D:\myProjects\weexDemo\weexDemo\webScenekitHsp\hvigorfile.ts
+[2025-07-22T16:01:45.560] [DEBUG] debug-file - hvigorfile, resolving D:\myProjects\weexDemo\weexDemo\entry\hvigorfile.ts
+[2025-07-22T16:01:45.585] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-07-22T16:01:45.586] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-07-22T16:01:45.590] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-07-22T16:01:45.591] [DEBUG] debug-file - Target 'default' config: {}
+[2025-07-22T16:01:45.591] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-07-22T16:01:45.591] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+}
+[2025-07-22T16:01:45.591] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true
+}
+[2025-07-22T16:01:45.591] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-07-22T16:01:45.591] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+} in this build.
+[2025-07-22T16:01:45.593] [DEBUG] debug-file - Module entry task initialization takes 1 ms 
+[2025-07-22T16:01:45.593] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-07-22T16:01:45.593] [DEBUG] debug-file - hvigorfile, no custom plugins were found in D:\myProjects\weexDemo\weexDemo\entry\hvigorfile.ts
+[2025-07-22T16:01:45.593] [DEBUG] debug-file - hvigorfile, resolve finished D:\myProjects\weexDemo\weexDemo\entry\hvigorfile.ts
+[2025-07-22T16:01:45.671] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 77 ms 
+[2025-07-22T16:01:45.672] [DEBUG] debug-file - project has submodules:WebScenekitHsp,entry
+[2025-07-22T16:01:45.672] [DEBUG] debug-file - module:WebScenekitHsp no need to execute packageHap
+[2025-07-22T16:01:45.683] [DEBUG] debug-file - Module weexDemo Collected Dependency: 
+[2025-07-22T16:01:45.683] [DEBUG] debug-file - Module weexDemo's total dependency: 0
+[2025-07-22T16:01:45.685] [DEBUG] debug-file - Module WebScenekitHsp Collected Dependency: 
+[2025-07-22T16:01:45.685] [DEBUG] debug-file - Module WebScenekitHsp's total dependency: 0
+[2025-07-22T16:01:45.749] [DEBUG] debug-file - Module entry Collected Dependency: D:\myProjects\weexDemo\weexDemo\oh_modules\.ohpm\advancedApi@k0w8fqmuk3iqixwrrr4bzv8ox4wdllcxstze3msxqv4=\oh_modules\advancedApi,D:\myProjects\weexDemo\weexDemo\oh_modules\.ohpm\webSceneAPI@so9+nnnqac1n3jbjnejibr1pq38gckruahrnz2rq6y0=\oh_modules\webSceneAPI,D:\myProjects\weexDemo\weexDemo\oh_modules\.ohpm\@ohos+lottie@2.0.10-rc.4\oh_modules\@ohos\lottie,D:\myProjects\weexDemo\weexDemo\webScenekitHsp
+[2025-07-22T16:01:45.750] [DEBUG] debug-file - Module entry's total dependency: 4
+[2025-07-22T16:01:45.753] [DEBUG] debug-file - Configuration phase cost:31 s 966 ms 
+[2025-07-22T16:01:45.756] [DEBUG] debug-file - Configuration task cost before running: 32 s 10 ms 
+[2025-07-22T16:01:45.758] [DEBUG] debug-file - Executing task :WebScenekitHsp:clean
+[2025-07-22T16:01:45.759] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2025-07-22T16:01:45.762] [DEBUG] debug-file - WebScenekitHsp : clean cost memory 0.17803955078125
+[2025-07-22T16:01:45.762] [DEBUG] debug-file - runTaskFromQueue task cost before running: 32 s 16 ms 
+[2025-07-22T16:01:45.762] [INFO] debug-file - Finished :WebScenekitHsp:clean... after 4 ms 
+[2025-07-22T16:01:45.765] [DEBUG] debug-file - Executing task :entry:clean
+[2025-07-22T16:01:45.765] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2025-07-22T16:01:45.767] [DEBUG] debug-file - entry : clean cost memory 0.1737060546875
+[2025-07-22T16:01:45.767] [DEBUG] debug-file - runTaskFromQueue task cost before running: 32 s 21 ms 
+[2025-07-22T16:01:45.767] [INFO] debug-file - Finished :entry:clean... after 3 ms 
+[2025-07-22T16:01:45.767] [DEBUG] debug-file - Executing task ::clean
+[2025-07-22T16:01:45.767] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2025-07-22T16:01:45.767] [DEBUG] debug-file - weexDemo : clean cost memory 0.0374603271484375
+[2025-07-22T16:01:45.768] [DEBUG] debug-file - runTaskFromQueue task cost before running: 32 s 22 ms 
+[2025-07-22T16:01:45.768] [INFO] debug-file - Finished ::clean... after 1 ms 
+[2025-07-22T16:01:45.774] [DEBUG] debug-file - BUILD SUCCESSFUL in 32 s 28 ms 
+[2025-07-22T16:01:45.789] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2025-07-22T16:01:45.790] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2025-07-22T16:01:45.791] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2025-07-22T16:01:45.794] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2025-07-22T16:01:45.797] [DEBUG] debug-file - Cleanup worker 0.
+[2025-07-22T16:01:45.797] [DEBUG] debug-file - Worker 0 has been cleaned up.
+[2025-07-22T16:01:45.797] [DEBUG] debug-file - Current idle worker size: 1.
+[2025-07-22T16:01:45.797] [DEBUG] debug-file - Current resident worker size: 2.
+[2025-07-22T16:01:45.797] [DEBUG] debug-file - Cleanup worker 1.
+[2025-07-22T16:01:45.797] [DEBUG] debug-file - Worker 1 has been cleaned up.
+[2025-07-22T16:01:45.797] [DEBUG] debug-file - Current idle worker size: 0.
+[2025-07-22T16:01:45.797] [DEBUG] debug-file - Current resident worker size: 2.
+[2025-07-22T16:01:45.798] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-07-22T16:01:45.800] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-07-22T16:01:45.800] [DEBUG] debug-file - session manager: send message to worker process.

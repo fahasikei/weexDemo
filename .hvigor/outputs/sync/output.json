@@ -65,6 +65,81 @@
       ]
     }
   },
+  "ohos-module-entry": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "D:\\myProjects\\weexDemo\\weexDemo\\entry\\build",
+    "DEPENDENCY_INFO": {
+      "advanced_api_har": "D:\\myProjects\\weexDemo\\weexDemo\\oh_modules\\.ohpm\\advancedApi@k0w8fqmuk3iqixwrrr4bzv8ox4wdllcxstze3msxqv4=\\oh_modules\\advancedApi",
+      "websceneapi": "D:\\myProjects\\weexDemo\\weexDemo\\oh_modules\\.ohpm\\webSceneAPI@so9+nnnqac1n3jbjnejibr1pq38gckruahrnz2rq6y0=\\oh_modules\\webSceneAPI",
+      "@ohos/lottie": "D:\\myProjects\\weexDemo\\weexDemo\\oh_modules\\.ohpm\\@ohos+lottie@2.0.10-rc.4\\oh_modules\\@ohos\\lottie"
+    },
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "D:\\myProjects\\weexDemo\\weexDemo\\entry\\src\\main",
+        "RESOURCES_PATH": [
+          "D:\\myProjects\\weexDemo\\weexDemo\\entry\\src\\main\\resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "D:\\myProjects\\weexDemo\\weexDemo\\entry\\build\\default\\outputs\\default",
+          "INTERMEDIA_PATH": "D:\\myProjects\\weexDemo\\weexDemo\\entry\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "D:\\myProjects\\weexDemo\\weexDemo\\entry\\build\\default\\intermediates\\loader_out\\default",
+          "JS_LITE_ASSETS_PATH": "D:\\myProjects\\weexDemo\\weexDemo\\entry\\build\\default\\intermediates\\loader_out_lite\\default",
+          "RES_PATH": "D:\\myProjects\\weexDemo\\weexDemo\\entry\\build\\default\\intermediates\\res\\default",
+          "RES_PROFILE_PATH": "D:\\myProjects\\weexDemo\\weexDemo\\entry\\build\\default\\intermediates\\res\\default\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "D:\\myProjects\\weexDemo\\weexDemo\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "D:\\myProjects\\weexDemo\\weexDemo\\entry\\build\\default\\cache\\default\\default@CompileJS\\jsbundle",
+          "WORKER_LOADER": "D:\\myProjects\\weexDemo\\weexDemo\\entry\\build\\default\\intermediates\\loader\\default\\loader.json",
+          "MANIFEST_JSON": "D:\\myProjects\\weexDemo\\weexDemo\\entry\\build\\default\\intermediates\\manifest\\default",
+          "OUTPUT_METADATA_JSON": "D:\\myProjects\\weexDemo\\weexDemo\\entry\\build\\default\\intermediates\\hap_metadata\\default\\output_metadata.json"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      },
+      "ohosTest": {
+        "SOURCE_ROOT": "D:\\myProjects\\weexDemo\\weexDemo\\entry\\src\\ohosTest",
+        "RESOURCES_PATH": [
+          "D:\\myProjects\\weexDemo\\weexDemo\\entry\\src\\ohosTest\\resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "D:\\myProjects\\weexDemo\\weexDemo\\entry\\build\\default\\outputs\\ohosTest",
+          "INTERMEDIA_PATH": "D:\\myProjects\\weexDemo\\weexDemo\\entry\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "D:\\myProjects\\weexDemo\\weexDemo\\entry\\build\\default\\intermediates\\loader_out\\ohosTest",
+          "JS_LITE_ASSETS_PATH": "D:\\myProjects\\weexDemo\\weexDemo\\entry\\build\\default\\intermediates\\loader_out_lite\\ohosTest",
+          "RES_PATH": "D:\\myProjects\\weexDemo\\weexDemo\\entry\\build\\default\\intermediates\\res\\ohosTest",
+          "RES_PROFILE_PATH": "D:\\myProjects\\weexDemo\\weexDemo\\entry\\build\\default\\intermediates\\res\\ohosTest\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "D:\\myProjects\\weexDemo\\weexDemo\\entry\\build\\default\\cache\\ohosTest\\ohosTest@OhosTestCompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "D:\\myProjects\\weexDemo\\weexDemo\\entry\\build\\default\\cache\\ohosTest\\ohosTest@OhosTestCompileJS\\jsbundle",
+          "WORKER_LOADER": "D:\\myProjects\\weexDemo\\weexDemo\\entry\\build\\default\\intermediates\\loader\\ohosTest\\loader.json",
+          "MANIFEST_JSON": "D:\\myProjects\\weexDemo\\weexDemo\\entry\\build\\default\\intermediates\\manifest\\ohosTest",
+          "OUTPUT_METADATA_JSON": "D:\\myProjects\\weexDemo\\weexDemo\\entry\\build\\default\\intermediates\\hap_metadata\\ohosTest\\output_metadata.json"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {},
+      "targets": [
+        {
+          "name": "default",
+          "runtimeOS": "HarmonyOS"
+        },
+        {
+          "name": "ohosTest",
+          "runtimeOS": "HarmonyOS"
+        }
+      ]
+    }
+  },
   "ohos-project": {
     "SELECT_PRODUCT_NAME": "default",
     "MODULE_BUILD_DIR": "D:\\myProjects\\weexDemo\\weexDemo\\build",
@@ -76,6 +151,19 @@
       {
         "name": "WebScenekitHsp",
         "srcPath": "D:\\myProjects\\weexDemo\\weexDemo\\webScenekitHsp",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ],
+        "belongProjectPath": "D:\\myProjects\\weexDemo\\weexDemo"
+      },
+      {
+        "name": "entry",
+        "srcPath": "D:\\myProjects\\weexDemo\\weexDemo\\entry",
         "targets": [
           {
             "name": "default",
@@ -103,6 +191,18 @@
         {
           "name": "WebScenekitHsp",
           "srcPath": "./webScenekitHsp",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "entry",
+          "srcPath": "./entry",
           "targets": [
             {
               "name": "default",
