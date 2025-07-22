@@ -61,6 +61,28 @@ struct Index {
               }
             })
           })
+        Button("跳转到singlePage1，无预渲染")
+          .width('100%')
+          .fontWeight(FontWeight.Bold)
+          .onClick(() => {
+            router.pushUrl({
+              url: "pages/ExtWebPage",
+              params: {
+                url: 'resource://rawfile/frameworkTest_web/pages/singlePage1/entry.html',
+              }
+            })
+          })
+        Button("跳转到NativePage，无预渲染")
+          .width('100%')
+          .fontWeight(FontWeight.Bold)
+          .onClick(() => {
+            router.pushUrl({
+              url: "pages/ExtWebPage",
+              params: {
+                url: 'resource://rawfile/frameworkTest_web/pages/NativePage/entry.html',
+              }
+            })
+          })
         Button("跳转到CommonTest，有预渲染")
           .width('100%')
           .fontWeight(FontWeight.Bold)

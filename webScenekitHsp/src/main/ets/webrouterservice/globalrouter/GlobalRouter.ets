@@ -22,6 +22,9 @@ import { UrlUtil } from '../common/util/UrlUtil';
 import { WebManager } from '../webmanger/WebManager';
 import bundleManager from '@ohos.bundle.bundleManager';
 import { BusinessError } from '@ohos.base';
+import { ViewAppear } from '../../adapterservice/api/ViewAppear';
+import { Constants } from '../../adapterservice/constants/Constants';
+import { MixWebManager } from '../webmanger/MixWebManager';
 const TAG: string = 'GlobalRouter';
 
 export class GlobalRouter {
@@ -46,8 +49,8 @@ export class GlobalRouter {
    * @param routerUrl
    */
   public firstLoad(routerUrl: string): void {
-    routerUrl = UrlUtil.addFakeDomain(routerUrl);
     let routerStorageInstance: RouterStorage = RouterStorage.getInstance();
+    routerUrl = UrlUtil.addFakeDomain(routerUrl);
     let nodeType: NodeType = routerStorageInstance.getNodeType(routerUrl);
 
     let webId: number = WebManager.getInstance().getWebInstanceId(false, routerUrl);
@@ -279,7 +282,10 @@ export class GlobalRouter {
    * @param webId
    * @returns
    */
-  public onBackPress(popNum: number, animated: boolean): boolean {
+  public onBackPress(popNum: number, animated: boolean, webId: number | undefined): boolean {
+    if (webId) {
+      ViewAppear.execAppearByCurrentPage(webId, Constants.VIEW_APPEAR_TYPE);
+    }
     const nativePageId: number = PageModelController.getInstance().getPageStackArrayLen() - 1;
     const routerStorageInstance = RouterStorage.getInstance();
     const pageModelInstance = PageModelController.getInstance();

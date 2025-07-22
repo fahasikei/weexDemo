@@ -30,6 +30,17 @@ struct ExtWebPage {
   build() {
     NavDestination() {
       Column() {
+        Button("跳转到watchElements，无预渲染")
+          .width('100%')
+          .fontWeight(FontWeight.Bold)
+          .onClick(() => {
+            router.pushUrl({
+              url: "pages/ExtWebPage",
+              params: {
+                url: 'resource://rawfile/frameworkTest_web/pages/watchElements/entry.html',
+              }
+            })
+          })
         ExtWeb({ url: this.url, asMixWeb: false })
       }.height('100%')
     }

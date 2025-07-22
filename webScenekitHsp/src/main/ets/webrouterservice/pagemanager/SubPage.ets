@@ -52,7 +52,7 @@ export struct SubPage {
     .hideTitleBar(true)
     .onBackPressed(() => {
       Logger.info(TAG, 'pageModel onBackPressed');
-      return GlobalRouter.getInstance().onBackPress(1, true)
+      return GlobalRouter.getInstance().onBackPress(1, true, this.pageModel?.webId)
     })
   }
 }

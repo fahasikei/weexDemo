@@ -4,6 +4,8 @@
     "pages/ApiAndComponent",
     "pages/Second",
     "pages/Third",
-    "pages/ExtWebPage"
+    "pages/ExtWebPage",
+    "pages/NativePage",
+    "pages/NativePage1"
   ]
 }

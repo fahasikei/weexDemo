@@ -15,6 +15,10 @@ import { PageModel } from './PageModel';
 import { PushPageType, RouteType } from '../common/entity/RouteType';
 import { WebNodeController } from '../webmanger/WebNodeController';
 import Logger from '../../common/Logger';
+import { WebManager } from '../webmanger/WebManager';
+import { MixWebManager } from '../webmanger/MixWebManager';
+import { ViewAppear } from '../../adapterservice/api/ViewAppear';
+import { Constants } from '../../adapterservice/constants/Constants';
 
 const TAG: string = 'PageModelController';
 
@@ -131,6 +135,12 @@ export class PageModelController {
     if (routerType === RouteType.MULTI_SINGLE) {
       this.loading(true);
     }
+    
+    let mixPageId = MixWebManager.getInstance().getMixPageWebId();
+    if (!pageModel && mixPageId) {
+      ViewAppear.execAppearByCurrentPage(mixPageId, Constants.VIEW_DIS_APPEAR_TYPE);
+      MixWebManager.getInstance().freeMixWeb(mixPageId);
+    }
 
     this.popPageStack(animated);
 
@@ -152,6 +162,11 @@ export class PageModelController {
     let lastPageModel: PageModel | undefined = this.getCurrentPageModel();
     if (lastPageModel) {
       lastPageModel?.pageUp();
+    } else {
+      let mixWebs = MixWebManager.getInstance().getCurrentMixWeb();
+      mixWebs?.forEach((mixPageModule) => {
+        ViewAppear.execAppearByCurrentPage(mixPageModule.mixWebId, Constants.VIEW_APPEAR_TYPE);
+      })
     }
   }
 

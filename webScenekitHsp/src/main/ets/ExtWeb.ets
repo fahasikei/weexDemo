@@ -31,6 +31,7 @@ const TAG: string = 'WeexWeb';
 export struct ExtWeb {
   @Prop @Watch('urlChanged') url: string = '';
   @Prop @Watch('showStatusChanged') showStatus: number = 0; // 1:可见 2:不可见
+  @Watch('change') @Prop isOnForeground: boolean;
   @State navPathStack: NavPathStack | undefined = undefined;
   asMixWeb: boolean = false;
 
@@ -43,6 +44,30 @@ export struct ExtWeb {
   urlChanged() {
     if (this.url) {
       this.initLoad();
+    }
+  }
+
+  change() {
+    if (this.isOnForeground) {
+      console.log('The mixPage is on forground.');
+      let mixWebId = MixWebManager.getInstance().getMixPageWebId();
+      let controller = WebManager.getInstance().getWebController(mixWebId);
+      const curl = UrlUtil.getUrlTemplate(controller?.getUrl() || '');
+      if (curl === this.url) {
+        ViewAppear.execAppearByCurrentPage(mixWebId, Constants.VIEW_APPEAR_TYPE);
+      } else {
+        console.log('The mixPageId is not found', this.url);
+      }
+    } else {
+      console.log('The mixPage is on background.');
+      let mixWebId = MixWebManager.getInstance().getMixPageWebId();
+      let controller = WebManager.getInstance().getWebController(mixWebId);
+      const curl = UrlUtil.getUrlTemplate(controller?.getUrl() || '');
+      if (curl === this.url) {
+        ViewAppear.execAppearByCurrentPage(mixWebId, Constants.VIEW_DIS_APPEAR_TYPE);
+      } else {
+        console.log('The mixPageId is not found', this.url);
+      }
     }
   }
 
@@ -83,7 +108,7 @@ export struct ExtWeb {
     Logger.info(TAG, 'WeexWeb aboutToAppear');
     // 混合页使用osWeb
     if (this.url) {
-      this.initLoad()
+      this.initLoad();
     }
   }
 
